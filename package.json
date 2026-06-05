@@ -6,6 +6,10 @@
   "scripts": {
     "clean": "hexo clean",
     "build": "hexo generate",
+    "new": "hexo new post",
+    "essay": "hexo new essay",
+    "blog:new": "node tools/new-with-cover.js post",
+    "essay:new": "node tools/new-with-cover.js essay",
     "server": "hexo server",
     "deploy": "hexo deploy"
   },

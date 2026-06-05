@@ -39,3 +39,12 @@ npm run build
 - `category_id`
 
 然后填入 `_config.butterfly.yml` 的 `giscus` 配置。
+
+
+## 创建新文章
+npm run essay:new -- "我的随笔标题" "D:\Desktop\essay-cover.png"
+npm run blog:new -- "我的技术文章标题" "D:\Desktop\cover.png"
+
+git add .
+git commit -m "add new essay"
+git push

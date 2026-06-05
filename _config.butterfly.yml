@@ -9,6 +9,7 @@ menu:
   归档: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder-open
   标签: /tags/ || fas fa-tags
+  随笔: /essays/ || fas fa-pen-nib
   项目: /projects/ || fas fa-code
   关于: /about/ || fas fa-user
 
@@ -72,7 +73,7 @@ subtitle:
     - LLM Engineer
     - Building RAG and Agent Systems
 
-index_layout: 3
+index_layout: 1
 index_post_content:
   method: 2
   length: 260
