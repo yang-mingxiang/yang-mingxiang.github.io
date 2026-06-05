@@ -1,0 +1,27 @@
+:root {
+  --ymx-accent: #2563eb;
+  --ymx-accent-2: #059669;
+}
+
+#site-info #site-title {
+  letter-spacing: 0;
+}
+
+#site-info #site-subtitle {
+  letter-spacing: 0;
+}
+
+.layout_page h2,
+.post-content h2 {
+  border-left: 4px solid var(--ymx-accent);
+  padding-left: 0.6rem;
+}
+
+.post-content a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+#aside-content .card-info .author-info__description {
+  line-height: 1.7;
+}

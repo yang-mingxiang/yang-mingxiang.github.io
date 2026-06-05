@@ -1,49 +1,41 @@
-# Mingxiang Yang
+# Mingxiang Yang Blog
 
-AI Application Developer | LLM Engineer
+个人技术博客与 AI 工程师个人网站，基于 Hexo + Butterfly 构建。
 
-M.S. Student @ Huazhong Agricultural University
+站点地址：https://yang-mingxiang.github.io
 
----
+## 本地开发
 
-## About Me
+```bash
+npm install
+npm run server
+```
 
-- Research interests: LLM Applications, RAG, Agent Systems
-- Python / FastAPI / LangChain / LangGraph
-- AI-assisted Scientific Research
+默认本地预览地址：
 
----
+```text
+http://localhost:4000
+```
 
-## Projects
+## 构建
 
-### Haiant
+```bash
+npm run build
+```
 
-AI workflow platform for scientific research.
+## 内容目录
 
-Tech Stack:
+- `source/_posts/`：博客文章
+- `source/about/`：关于我页面
+- `source/projects/`：项目展示页面
+- `_config.yml`：Hexo 主配置
+- `_config.butterfly.yml`：Butterfly 主题配置
 
-- FastAPI
-- React
-- LangChain
-- LangGraph
-- ChromaDB
-- Llama.cpp
+## 评论系统
 
-### RAG from Scratch
+评论系统预留为 Giscus。需要在 https://giscus.app 生成：
 
-Building retrieval augmented generation systems from scratch.
+- `repo_id`
+- `category_id`
 
-### LangGraph Agent Demo
-
-Multi-agent workflow examples.
-
----
-
-## Contact
-
-GitHub: https://github.com/yang-mingxiang
-
-CSDN: （你的CSDN链接）
-
-Email:
-mingxiangy31@gmail.com
+然后填入 `_config.butterfly.yml` 的 `giscus` 配置。
