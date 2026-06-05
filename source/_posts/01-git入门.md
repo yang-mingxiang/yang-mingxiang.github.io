@@ -7,7 +7,7 @@ tags:
   - 版本控制
   - 工程化
 description: Git 简介、安装配置、基本工作流、分支管理、远程仓库协作和常见问题整理。
-cover: /img/default-cover.svg
+cover: /img/git-cover.png
 abbrlink: 8d8f656a
 date: 2026-06-05 15:51:00
 updated: 2026-06-05 15:51:00
@@ -343,3 +343,5 @@ https://juejin.cn/post/6844904191203213326
 https://juejin.cn/post/7050012586296737805
 - gitlab ci
 https://meigit.readthedocs.io/en/latest/gitlab_ci_.gitlab-ci.yml_detail.html
+- 保姆级Git入门教程，万字详解！
+https://mp.weixin.qq.com/s/Q_O0ey4C9tryPZaZeJocbA
