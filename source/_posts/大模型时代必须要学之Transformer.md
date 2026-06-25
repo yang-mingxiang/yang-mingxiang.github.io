@@ -7,7 +7,7 @@ tags:
   - RAG
   - Agent
 description: 为什么应用开发也要懂 Transformer？
-cover: /img/default-cover.svg
+cover: /img/transfromer-cover.png
 abbrlink: transformer-2026-6-11
 date: 2026-06-11 16:46:34
 updated: 2026-06-11 16:46:34
